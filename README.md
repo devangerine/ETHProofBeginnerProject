@@ -1,6 +1,5 @@
 # ETHProofBeginnerProject
 
-Simple overview of use/purpose.
 The purpose of this project is to simulate minting and burning of tokens. 
 
 ## Description
