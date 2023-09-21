@@ -12,5 +12,4 @@ This project mints tokens using the mintToken function which accepts an address 
 
 Contributors names and contact info
 
-Drennix Guerrero 
-Email: 201812805@fit.edu.ph
+Drennix Guerrero @ 201812805@fit.edu.ph
