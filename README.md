@@ -10,6 +10,4 @@ This project mints tokens using the mintToken function which accepts an address 
 
 ## Authors
 
-Contributors names and contact info
-
 Drennix Guerrero @ 201812805@fit.edu.ph
