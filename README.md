@@ -110,10 +110,10 @@ Please check if the code inside the .sol file you created in remix matches the c
 ### Balance did not increase after minting tokens
 Please make sure that the address you provided in the inpute field beside the "balances" button matches the address you provided the input field beside the "mintToken" button.
 
-### Balance did not dencrease after burning of tokens
+### Balance did not dencrease after burning tokens
 Please make sure that the address you provided in the inpute field beside the "balances" button matches the address you provided the input field beside the "burnToken" button. If they match then please read the Note of the "Burning of Tokens" section. Burning of tokens cannot occur when the balance is zero(0) or below the amount of tokens to be burned.
 
-### Total supply did not decrease after burning of tokens
+### Total supply did not decrease after burning tokens
 Burning of tokens cannot occur when the balance is zero(0) or below the amount of tokens to be burned. Please read the Note of the "Burning of Tokens" section for more information.
 
 If the above does not help or cover the issue you are having with regards to this Solidity Contract I made then please feel free to reach me at 201812805@fit.edu.ph or voltairedvx@gmail.com and I will try to help you as soon as I can.
