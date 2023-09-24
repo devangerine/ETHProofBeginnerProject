@@ -76,8 +76,11 @@ You can interact with contract with the following actions:
 
 ### I - Token Information, Supply Count, and Balances
 1.) Click the "tokenName" button to view the name of the token.
+
 2.) Click the "tokenAbbreviation" button to view the abbreviation of the token.
+
 3.) Click the "totalSupply" button to view the total supply of tokens that have been minted. (This will display 0 below it if you have not minted any tokens or burned all of your tokens)
+
 4.) Copy an address and paste it inside the input field beside the "balances" button. (Please read the "Post Contract Deployment" section of this README.md for instructions on how to find and copy an address) After pasting the address inside the input field, click the "balances" button to view the balance of the account/address you provided.
 
 ### II - Minting of Tokens
