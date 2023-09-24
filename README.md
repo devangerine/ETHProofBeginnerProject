@@ -4,7 +4,7 @@ This is a Solidity program that simulates the minting and burning of tokens. The
 
 ## Description
 
-This program is a contract written in Solidity, an object-orientted programming language typically used for developing smart contracts on various blockchain platforms such as ethereum. The contract mints tokens using the mintToken function which accepts an address and a value as parameters. This will then increase the balance of the provided address as well as increase the total supply by updating the totalSupply state variable. This project also burns tokens using the burnToken function which accepts an address and a value as parameters. However unlike the mintToken function, the burnToken function has a balance check on the address provided. If the balance of the address provided is greater than or equal to the amount of token to be burned then the burning of tokens will proceed otherwise nothing will happen but the transaction will be shown as completed. 
+This program is a contract written in Solidity, an object-orientted programming language typically used for developing smart contracts on various blockchain platforms such as ethereum. This contract mints tokens using the "mintToken" function which accepts an address and a value as parameters. This will then increase the balance of the provided address as well as increase the total supply by updating the "totalSupply" state variable. This project also burns tokens using the "burnToken" function which accepts an address and a value as parameters. However unlike the "mintToken" function, the "burnToken" function has a balance check on the address provided. If the balance of the address provided is greater than or equal to the amount of token to be burned then the burning of tokens will proceed otherwise nothing will happen but the transaction will be shown as completed. 
 
 ## Getting Started
 
@@ -100,7 +100,7 @@ You can interact with contract with the following actions:
  2.) Click on the "totalSupply" button to confirm that the total supply of minted tokens have deccreased accordingly. If the total supply did not decrease please see the Note of the "Burning of Tokens" section of this README.md.
 
 
- 3.) Click the input field beside the "balances" button and paste the same address you used in the input field beside the "mintToken" button. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4). Afterwards click the "balances" button to confirm that the balance of that address you provided has increased accordingly. If the balance of the provided address did not decrease please make sure that the address you provided is the matches the address you provided in the input field beside the "burnToken" button. Otherwise, after you have made sure that the two addressess match then please read the Note of the "Burning of Tokens" section of this README.md. 
+ 3.) Click the input field beside the "balances" button and paste the same address you used in the input field beside the "mintToken" button. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4). Afterwards click the "balances" button to confirm that the balance of that address you provided has increased accordingly. If the balance of the provided address did not decrease accordingly, please make sure that the address you provided is the matches the address you provided in the input field beside the "burnToken" button. Otherwise, after you have made sure that the two addressess match then please read the Note of the "Burning of Tokens" section of this README.md. 
 
 
 ## Authors
