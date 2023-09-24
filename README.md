@@ -60,17 +60,46 @@ contract MyToken {
 }
 
 ```
+### Contract Compilation
 In order to compile the code, click on the "Solidity compiler" tab found in the left-hand sidebar below the button that looks like a magnifying glass. Please make sure the "Compiler is set to "0.8.18" (or any other compatible version), and then click on the "Compile MyFirstProgram.sol" assuming you named your Solidity contract as such. Otherwise, the button will say "Compile " followed by the name of your Solidity contract. For simplicity's sake I will be referring to the contract you have made as "MyFirstProgram.sol" but it will appear on the Remix IDE as how you named the contract.
 
+
+### Post Contract Compilation
 After the contract has been compiled, you can now deploy the contract by clicking on the "Deploy & run transactions" tab found in the left-hand sidebar below the "Solidity compiler" tab. Select the "MyFirstProgram.sol" contract or as how you have named it. After selecting the contract, click on the "Deploy" button.
 
-After the contract has been deployed, the contract will be found under "Deployed Contracts". Expand it by clicking the ">" button below "Deployed Contracts". You should see the following buttons: "burnToken", "mintToken", "balances", "tokenAbbreviation", "tokenName", and "totalSupply". The "burnToken" and "mintTokem" buttons have input fields beside each button. These input fields accepts an address and a positive integer value as parameters/input strictly in that order. The aforementioned parameters/input are separated by a comma (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,1000). You can get an address by clicking the "Copy account to clipboard" button which looks like two pieces of paper stacked on the of each other with the upper right corner folded. This button is founnd below "Account" and beside the current selected Account/Address. After clicking the "Copy account to clipboard" button you can now paste it inside the input fields beside the following buttons: "burnToken", "mintToken", or "balances". The input field beside the "balances" button only accepts an address as parameter/input. 
+
+### Post Contract Deployment
+After the contract has been deployed, the contract will be found under "Deployed Contracts". Expand it by clicking the ">" button below "Deployed Contracts". You should see the following buttons: "burnToken", "mintToken", "balances", "tokenAbbreviation", "tokenName", and "totalSupply". The "burnToken" and "mintTokem" buttons have input fields beside each button. These input fields accepts an address and a positive integer value as parameters/input strictly in that order. The aforementioned parameters/input are separated by a comma (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,1000). You can get an address by clicking the "Copy account to clipboard" button which looks like two pieces of paper stacked on the of each other with the upper right corner folded. This button is founnd below "Account" and beside the current selected Account/Address. After clicking the "Copy account to clipboard" button you can now paste it inside the input fields beside the following buttons: "burnToken", "mintToken", or "balances". The input field beside the "balances" button only accepts an address as parameter/input. Note: The address you will be using can vary from my example. 
 
 
 You can interact with contract with the following actions:
-1.) Clicking the "tokenName" button to view the name of the token.
-2.) Clicking the "tokenAbbreviation" button to view the abbreviation of the token.
-3.) Clicking the 
+
+### I - Token Information, Supply Count, and Balances
+1.) Click the "tokenName" button to view the name of the token.
+2.) Click the "tokenAbbreviation" button to view the abbreviation of the token.
+3.) Click the "totalSupply" button to view the total supply of tokens that have been minted. (This will display 0 below it if you have not minted any tokens or burned all of your tokens)
+4.) Copy an address and paste it inside the input field beside the "balances" button. (Please read the "Post Contract Deployment" section of this README.md for instructions on how to find and copy an address) After pasting the address inside the input field, click the "balances" button to view the balance of the account/address you provided.
+
+### II - Minting of Tokens
+
+1.) Copy the an address and paste it inside the input field beside the "mintToken" button. (Please read the "Post Contract Deployment" section of this README.md for instructions on how to find and copy an address) type a comma (,) after the address you just pasted and type a positive integer beside it. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,1000). Once the input field beside the "mintToken" button has been filled like in the example shown before, click the "mintToken" button to mint tokens.
+
+2.) Click on the "totalSupply" button to confirm that the total supply of minted tokens have increased accordingly. 
+
+3.) Click the input field beside the "balances" button and paste the same address you used in the input field beside the "mintToken" button. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4). Afterwards click the "balances" button to confirm that the balance of that address you provided has increased accordingly. If the balance did not increase please make sure that the address you provided matches the address you provided in the input field beside the "mintToken" button. 
+
+### IV - Burning of Tokens
+
+#### Note: You can attempt to burn tokens even while having zero(0) balance or a balance below the inputted amount of tokens to be burned. The transaction will proceed but no burning of tokens will occur because of the balance check if statement found in the burnToken function of the code I provided that does not allow the burning of tokens to occur when the balance of the provided address/account is zero(0) or below the inputted amount of tokens to be burned. 
+
+ 1.) Copy an address and paste it inside the input field beside the "burnToken" button. (Please read the "Post Contract Deployment" section of this README.md for instructions on how to find and copy an address) type a comma (,) after the address you just pasted and type a positive integer beside it. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,1000). Once the input field beside the "burnToken" button has been filled like in the example shown before, click the "burnToken" button to burn tokens. 
+
+ 2.) Click on the "totalSupply" button to confirm that the total supply of minted tokens have deccreased accordingly. If the total supply did not decrease please see the Note of the "Burning of Tokens" section of this README.md.
+
+
+ 3.) Click the input field beside the "balances" button and paste the same address you used in the input field beside the "mintToken" button. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4). Afterwards click the "balances" button to confirm that the balance of that address you provided has increased accordingly. If the balance of the provided address did not decrease please make sure that the address you provided is the matches the address you provided in the input field beside the "burnToken" button. Otherwise, after you have made sure that the two addressess match then please read the Note of the "Burning of Tokens" section of this README.md. 
+
+
 
 
 ## License
