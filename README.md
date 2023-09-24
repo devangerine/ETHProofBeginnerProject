@@ -103,12 +103,10 @@ You can interact with contract with the following actions:
  3.) Click the input field beside the "balances" button and paste the same address you used in the input field beside the "mintToken" button. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4). Afterwards click the "balances" button to confirm that the balance of that address you provided has increased accordingly. If the balance of the provided address did not decrease please make sure that the address you provided is the matches the address you provided in the input field beside the "burnToken" button. Otherwise, after you have made sure that the two addressess match then please read the Note of the "Burning of Tokens" section of this README.md. 
 
 
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
 ## Authors
 
 Drennix Guerrero @ 201812805@fit.edu.ph
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
