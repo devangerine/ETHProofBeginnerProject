@@ -102,6 +102,22 @@ You can interact with contract with the following actions:
 
  3.) Click the input field beside the "balances" button and paste the same address you used in the input field beside the "mintToken" button. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4). Afterwards click the "balances" button to confirm that the balance of that address you provided has increased accordingly. If the balance of the provided address did not decrease accordingly, please make sure that the address you provided is the matches the address you provided in the input field beside the "burnToken" button. Otherwise, after you have made sure that the two addressess match then please read the Note of the "Burning of Tokens" section of this README.md. 
 
+## Help
+
+### Compilation failed
+Please check if the code inside the .sol file you created in remix matches the code I provided. If it does not match then please copy the code I provided in its entirety and replace the code in the .sol filed that you created in Remix. If it does match and it still will not compile then please check your internet connection or trying a different browser or updating your current browser. 
+
+### Balance did not increase after minting tokens
+Please make sure that the address you provided in the inpute field beside the "balances" button matches the address you provided the input field beside the "mintToken" button.
+
+### Balance did not dencrease after burning of tokens
+Please make sure that the address you provided in the inpute field beside the "balances" button matches the address you provided the input field beside the "burnToken" button. If they match then please read the Note of the "Burning of Tokens" section. Burning of tokens cannot occur when the balance is zero(0) or below the amount of tokens to be burned.
+
+### Total supply did not decrease after burning of tokens
+Burning of tokens cannot occur when the balance is zero(0) or below the amount of tokens to be burned. Please read the Note of the "Burning of Tokens" section for more information.
+
+If the above does not help or cover the issue you are having with regards to this Solidity Contract I made then please feel free to reach me at 201812805@fit.edu.ph or voltairedvx@gmail.com and I will try to help you as soon as I can.
+
 
 ## Authors
 
