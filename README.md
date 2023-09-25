@@ -1,6 +1,6 @@
 # ETHProofBeginnerProject
 
-This is a Solidity program that simulates the minting and burning of tokens. The purpose of this program is showcase my current understanding of Solidity as a programming language as well as serve as a referrence to those who are also new to Solidity like me. 
+This is a Solidity program that simulates the minting and burning of tokens. The purpose of this program is showcase my current understanding of Solidity as a programming language (the usage of state variables, functions, looping statements, conditional statemnents, etc) as well as serve as a referrence to those who are also new to Solidity like me. 
 
 ## Description
 
