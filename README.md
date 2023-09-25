@@ -85,7 +85,7 @@ You can interact with contract with the following actions:
 
 ### II - Minting of Tokens
 
-1.) Copy the an address and paste it inside the input field beside the "mintToken" button. (Please read the "Post Contract Deployment" section of this README.md for instructions on how to find and copy an address) type a comma (,) after the address you just pasted and type a positive integer beside it. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,1000). Once the input field beside the "mintToken" button has been filled like in the example shown before, click the "mintToken" button to mint tokens.
+1.) Copy an address and paste it inside the input field beside the "mintToken" button. (Please read the "Post Contract Deployment" section of this README.md for instructions on how to find and copy an address) type a comma (,) after the address you just pasted and type a positive integer beside it. (e.g. 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,1000). Once the input field beside the "mintToken" button has been filled like in the example shown before, click the "mintToken" button to mint tokens.
 
 2.) Click on the "totalSupply" button to confirm that the total supply of minted tokens have increased accordingly. 
 
