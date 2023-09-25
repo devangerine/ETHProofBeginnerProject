@@ -64,7 +64,7 @@ contract MyToken {
 In order to compile the code, click on the "Solidity compiler" tab found in the left-hand sidebar below the button that looks like a magnifying glass. Please make sure the "Compiler is set to "0.8.18" (or any other compatible version), and then click on the "Compile MyFirstProgram.sol" assuming you named your Solidity contract as such. Otherwise, the button will say "Compile " followed by the name of your Solidity contract. For simplicity's sake I will be referring to the contract you have made as "MyFirstProgram.sol" but it will appear on the Remix IDE as how you named the contract.
 
 
-### Post Contract Compilation and Deployment
+### Contract Deployment
 After the contract has been compiled, you can now deploy the contract by clicking on the "Deploy & run transactions" tab found in the left-hand sidebar below the "Solidity compiler" tab. Select the "MyFirstProgram.sol" contract or as how you have named it. After selecting the contract, click on the "Deploy" button.
 
 
